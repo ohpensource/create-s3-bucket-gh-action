@@ -22,5 +22,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ${{ github.action_path }}/../create-s3-bucket.sh ${{ inputs.region }} ${{ inputs.access-key }} ${{ inputs.secret-key }} ${{ inputs.account }} ${{ inputs.role-name }} ${{ inputs.s3-bucket }}
+    - run: ${{ github.action_path }}/create-s3-bucket.sh ${{ inputs.region }} ${{ inputs.access-key }} ${{ inputs.secret-key }} ${{ inputs.account }} ${{ inputs.role-name }} ${{ inputs.s3-bucket }}
       shell: bash
