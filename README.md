@@ -41,7 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
        - name: create-s3-bucket
-        uses: ohpensource/create-s3-bucket-gh-action@v0.0.2
+        uses: ohpensource/create-s3-bucket-gh-action@v0.0.4
         with:
           region: ${{ secrets.AWS_REGION }}
           access-key: ${{ secrets.AWS_ACCESS_KEY_ID }}
