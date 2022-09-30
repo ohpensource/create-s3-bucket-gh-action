@@ -49,6 +49,4 @@ jobs:
           account: <aws account id where to create s3 bucket>
           role-name: <name of the role to assume in the destination account>
           s3-bucket: <bucket name>
-          
-
 ```
